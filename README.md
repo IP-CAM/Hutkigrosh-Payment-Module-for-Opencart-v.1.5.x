@@ -1,14 +1,14 @@
 ## Модуль интеграции с CMS OpenCart  1.5.x
 
 Данный модуль обеспечивает взаимодействие между интернет-магазином на базе CMS Opencart версии 1.5.x и сервисом платежей hutkigrosh.by
-  * Модуль интеграции для версии [OpenCart 2.1.x](https://github.com/esasby/hgrosh/tree/master/CMS/Plugins/OpenCart/2.1)
-  * Модуль интеграции для версии [OpenCart 2.2.x](https://github.com/esasby/hgrosh/tree/master/CMS/Plugins/OpenCart/2.2)
-  * Модуль интеграции для версии [OpenCart 2.3.x](https://github.com/esasby/hgrosh/tree/master/CMS/Plugins/OpenCart/2.3)
-  * Модуль интеграции для версии [OpenCart 3.0.x](https://github.com/esasby/hgrosh/tree/master/CMS/Plugins/OpenCart/3.0)
+  * Модуль интеграции для версии [OpenCart 2.1.x](https://github.com/esasby/hutkigrosh-opencart2.1-module)
+  * Модуль интеграции для версии [OpenCart 2.2.x](https://github.com/esasby/hutkigrosh-opencart2.2-module)
+  * Модуль интеграции для версии [OpenCart 2.3.x](https://github.com/esasby/hutkigrosh-opencart2.3-module)
+  * Модуль интеграции для версии [OpenCart 3.0.x](https://github.com/esasby/hutkigrosh-opencart3.0-module)
 
 ### Инструкция по установке:
 
-1. Разархивируйте архив [opencart15-hutkigrosh-payment-module.zip](https://github.com/esasby/hgrosh/tree/master/CMS/Plugins/OpenCart/1.5.5%20(http)/opencart15-hutkigrosh-payment-module.zip) и копируйте все файлы на сервер по FTP/SSH.
+1. Разархивируйте архив [opencart15-hutkigrosh-payment-module.zip](https://github.com/esasby/hutkigrosh-opencart1.5-module/blob/master/opencart15-hutkigrosh-payment-module.zip) и копируйте все файлы на сервер по FTP/SSH.
 2. В административной части OpenCart  выберите Дополнения > Оплата (Extensions > Payments)
 3. Напротив модуля ХуткiГрош (HutkiGrosh) нажмите «Установить», а затем «Изменить».
 4. Заполните параметры для идентификации вашего магазина в системе HutkiGrosh. Обязательными полями являются:
