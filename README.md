@@ -1,38 +1,34 @@
-## Модуль интеграции с CMS OpenCart  1.5.x
+## Module for integration with CMS OpenCart 1.5.x
 
-Данный модуль обеспечивает взаимодействие между интернет-магазином на базе CMS Opencart версии 1.5.x и сервисом платежей hutkigrosh.by
-  * Модуль интеграции для версии [OpenCart 2.1.x](https://github.com/esasby/hutkigrosh-opencart2.1-module)
-  * Модуль интеграции для версии [OpenCart 2.2.x](https://github.com/esasby/hutkigrosh-opencart2.2-module)
-  * Модуль интеграции для версии [OpenCart 2.3.x](https://github.com/esasby/hutkigrosh-opencart2.3-module)
-  * Модуль интеграции для версии [OpenCart 3.0.x](https://github.com/esasby/hutkigrosh-opencart3.0-module)
+This module provides interaction between the online store based on CMS Opencart version 1.5.x and the payment service hutkigrosh.by
+  * Integration module for version [OpenCart 2.1.x] (https://github.com/esasby/hutkigrosh-opencart2.1-module)
+  * Integration module for version [OpenCart 2.2.x] (https://github.com/esasby/hutkigrosh-opencart2.2-module)
+  * Integration module for version [OpenCart 2.3.x] (https://github.com/esasby/hutkigrosh-opencart2.3-module)
+  * Integration module for version [OpenCart 3.0.x] (https://github.com/esasby/hutkigrosh-opencart3.0-module)
 
-### Инструкция по установке:
+### Installation Instructions:
 
-1. Разархивируйте архив [opencart15-hutkigrosh-payment-module.zip](https://github.com/esasby/hutkigrosh-opencart1.5-module/blob/master/opencart15-hutkigrosh-payment-module.zip) и копируйте все файлы на сервер по FTP/SSH.
-2. В административной части OpenCart  выберите Дополнения > Оплата (Extensions > Payments)
-3. Напротив модуля ХуткiГрош (HutkiGrosh) нажмите «Установить», а затем «Изменить».
-4. Заполните параметры для идентификации вашего магазина в системе HutkiGrosh. Обязательными полями являются:
-    * Уникальный идентификатор услуги ЕРИП – ID ЕРИП услуги
-    * Логин интернет-магазина – логин в системе ХуткiГрош.
-    * Пароль интернет-магазина – пароль в системе ХуткiГрош.
-    * Путь в дереве ЕРИП - путь для оплаты счета в дереве ЕРИП, который будет показан клиенту после оформления заказа (например, Платежи > Магазин > Заказы) 
-5. В выпадающем списке «Статус» выберите «Включено».
-6. Сохраните изменения.
+1. Unzip the archive [opencart15-hutkigrosh-payment-module.zip] (https://github.com/esasby/hutkigrosh-opencart1.5-module/blob/master/opencart15-hutkigrosh-payment-module.zip) and copy all files to the server via FTP / SSH.
+2. In the admin area of ​​OpenCart, select Extensions> Payments
+3. Opposite the HutkiGrosh module, click "Install" and then "Change".
+4. Fill in the parameters to identify your store in the HutkiGrosh system. The required fields are:
+    * Unique identifier of the ERIP service - ID of the ERIP service
+    * Login online store - login in the HutkiGrosh system.
+    * Online store password - password in the HutkiGrosh system.
+    * Path in the ERIP tree - the path for paying the invoice in the ERIP tree, which will be shown to the client after placing an order (for example, Payments> Store> Orders)
+5. In the "Status" drop-down list, select "Enabled".
+6. Save your changes.
 
-### Внимание!
-Для автоматического обновления статуса заказа (после оплаты клиентом выставленного в ЕРИП счета) необходимо сообщить в службу технической поддержки сервиса «Хуткi Грош» адрес обработчика:
-```
+### Attention!
+To automatically update the status of the order (after the client pays the invoice issued to the ERIP), you must inform the technical support service of the "Hutki Grosh" service with the address of the processor:
+``
 http://mydomen.my/index.php?route=payment/hutkigrosh/notify
-```
+``
 
-### Тестовые данные
-Для настрой оплаты в тестовом режиме
- * воспользуйтесь данными для подключения к тестовой системе, полученными при регистрации в ХуткiГрош
- * включите в настройках модуля режим "Песочницы"
- * для эмуляции оплаты клиентом выставленного счета воспльзуйтесь личным кабинетом [тестовой системы](https://trial.hgrosh.by) (меню _Тест оплаты ЕРИП_) 
+### Test data
+To set up payment in test mode
+ * use the data to connect to the test system obtained during registration in HutkiGrosh
+ * enable the "Sandbox" mode in the module settings
+ * to emulate the payment by the client of the invoice, use the personal account of the [test system] (https://trial.hgrosh.by) (menu _ ERIP payment test_)
 
-_Разработано и протестировано с OpenCart v.1.5.6.4_
-
-
-
-
+_Developed and tested with OpenCart v.1.5.6.4
